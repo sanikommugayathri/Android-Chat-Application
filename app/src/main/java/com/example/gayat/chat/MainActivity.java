@@ -9,8 +9,7 @@ import android.support.v7.widget.Toolbar;
 
 import com.google.firebase.auth.FirebaseUser;
 
-public class MainActivity extends AppCompatActivity
-{
+public class MainActivity extends AppCompatActivity {
     private Toolbar mToolbar;
     private ViewPager myViewPager;
     private TabLayout myTabLayout;
@@ -19,8 +18,7 @@ public class MainActivity extends AppCompatActivity
     private FirebaseUser currentUser;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -51,7 +49,7 @@ public class MainActivity extends AppCompatActivity
 
     private void SendUserToLoginActivity()
     {
-        Intent loginIntent = new Intent(MainActivity.this, LoginActivity.class);
-        startActivity(loginIntent);
+        Intent MainIntent = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(MainIntent);
     }
 }
