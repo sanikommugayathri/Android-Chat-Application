@@ -23,6 +23,14 @@
           }
         },
         {
+          "client_id": "65279563269-3nrpuo0p3cgdbbkb6p5fm9m0khj2hdd2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gayat.chat",
+            "certificate_hash": "24b90078ee74bf9723bdc7dacb27cce506c62814"
+          }
+        },
+        {
           "client_id": "65279563269-45ii71c1mrd9euq9dq3aqc4np9n78q04.apps.googleusercontent.com",
           "client_type": 3
         }
